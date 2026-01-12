@@ -1,3 +1,4 @@
+// /ecommerce_kpis.mongodb
 // ============================
 // 1. 📦 Performance de Pedidos
 // ============================
