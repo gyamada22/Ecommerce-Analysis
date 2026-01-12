@@ -6,6 +6,12 @@
 // 1.1 Total de pedidos
 db.orders.countDocuments()
 
+[
+
+  { "$count": "total_pedidos" }
+
+]
+
 // 1.2 Pedidos por status
 db.orders.aggregate([
   { $group: { _id: "$order_status", total: { $sum: 1 } } }
