@@ -1,6 +1,10 @@
 import pandas as pd
 from pymongo import MongoClient
 import numpy as np
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # 1. Conectar Atlas
 MONGO_URI = os.getenv("MONGO_URI")
