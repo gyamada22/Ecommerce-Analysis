@@ -37,7 +37,7 @@ Falha crítica na sincronização entre o estoque dos vendedores e a plataforma,
 
 ### 🛠️ Ação Estratégica  
 Implementar um **Score de Confiança para Vendedores**:
-- Penalizar no ranking de busca vendedores com alta taxa de *unavailable*  
+- Penalizar no ranking de busca vendedores com alta taxa de produtos indisponíveis
 - Reduzir a exposição de produtos com histórico de indisponibilidade  
 - Proteger a experiência do cliente e a credibilidade da plataforma  
 
