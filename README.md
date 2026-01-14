@@ -67,7 +67,7 @@ A demora no processamento inicial permite que o cliente desista da compra antes 
 "Cancelamento por Esquecimento": O cliente gera o pedido, mas acaba perdendo o prazo de vencimento do boleto, resultando em uma perda de conversão que já estava garantida no carrinho.
 
 **🛠️ Ação Estratégica: Automação de Recuperação**
-* **Orquestração de Alertas:** Utilizar o **Apache Airflow** para monitorar prazos e disparar lembretes automáticos antes do vencimento do boleto.
+* **Fluxo de Alertas:** Implementar uma rotina de monitoramento de prazos para disparar lembretes automáticos antes do vencimento do boleto.
 * **Objetivo:** Transformar pedidos pendentes em faturamento real e reduzir a taxa de desistência passiva no final do funil de vendas.
 
 ---
