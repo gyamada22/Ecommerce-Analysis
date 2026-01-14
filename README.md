@@ -43,7 +43,7 @@ Implementar um **Score de Confiança para Vendedores**:
 
 ---
 
-### 🚚 2. Eficiência Logística e Retenção – Hub Sudeste (SP, RJ, MG)
+## 🚚 2. Eficiência Logística e Retenção – Hub Sudeste (SP, RJ, MG)
 
 * **Dado do Dashboard:** O Sudeste (liderado por SP, RJ e MG) concentra o maior volume de faturamento e densidade de pedidos.
 * **Insight:** A análise revela que, apesar da infraestrutura logística ser mais rápida nessas regiões, a "janela de espera" entre a compra e a confirmação do pagamento é o principal gatilho para cancelamentos por arrependimento.
@@ -58,7 +58,7 @@ A demora no processamento inicial permite que o cliente desista da compra antes 
 
 ---
 
-### 💳 3. Meios de Pagamento – Otimização de Conversão (Boleto)
+## 💳 3. Meios de Pagamento – Otimização de Conversão (Boleto)
 
 * **Dado do Dashboard:** Dentro da margem de pedidos não finalizados (que representam ~3% do volume total), identificamos que 21,09% dos cancelamentos ocorrem em pagamentos pendentes.
 * **Insight:** Identifiquei que o boleto bancário é o principal responsável por esses cancelamentos, devido ao tempo de espera entre a geração do título e o pagamento real pelo cliente.
@@ -72,22 +72,19 @@ A demora no processamento inicial permite que o cliente desista da compra antes 
 
 ---
 
-## 🔁 4. Taxa de Recompra – Fidelização  
+## 🔁 4. Retenção e Fidelização – Ciclo de Recompra
 
-- **Dado do dashboard:** Taxa de recompra de apenas 3,12%.  
-- **Insight do banco:**  
-  O `customer_unique_id` raramente se repete ao longo do tempo.
+* **Dado do dashboard:** Taxa de recompra de apenas 3,12%.
+* **Insight:** Identificamos que a grande maioria dos clientes não retorna para uma segunda compra, mesmo em categorias de consumo recorrente.
 
-### 📌 Problema  
-A plataforma funciona como uma experiência de “compra única”.
+📌 **Problema**
+A plataforma funciona majoritariamente como uma experiência de “compra única”, resultando em um baixo valor de tempo de vida (LTV) do cliente.
 
-### 🛠️ Ação Estratégica  
-Criar campanhas de CRM baseadas na primeira compra:
-- Usar a view `vw_receita_por_produto`  
-- Exemplo:
-  - Cliente comprou **Beleza & Saúde**  
-  - Após 30 dias → envio automático de cupom de desconto  
-  - Tempo alinhado ao ciclo de reposição do produto  
+🛠️ **Ação Estratégica**
+Criar campanhas de relacionamento baseadas na primeira compra:
+* Segmentar clientes por categoria de interesse (ex: Beleza & Saúde).
+* Implementar o envio automático de incentivos de retorno após 30 dias.
+* Alinhar o tempo da oferta ao ciclo médio de reposição do produto para estimular a recorrência.  
 
 ---
 
