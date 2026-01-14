@@ -133,19 +133,13 @@ Criar campanhas de relacionamento baseadas na primeira compra:
 
 ## 🧠 Conclusão  
 
-Este projeto mostra como dashboards devem ser usados como ferramentas estratégicas:
+Os insights deste projeto se conectam em um único objetivo: **aumentar o faturamento real do e-commerce reduzindo perdas e melhorando a eficiência do negócio**.
 
-> 📊 Visualização → 🗄️ Banco de Dados → 💡 Insight → 🛠️ Ação de Negócio  
+As estratégias propostas atuam de forma complementar:
+- Recuperam receita que hoje é perdida por indisponibilidade de produtos, boletos não pagos e cancelamentos evitáveis.
+- Otimizam processos operacionais, principalmente em logística e fluxo de pedidos.
+- Aumentam o valor do cliente ao estimular recompra e fidelização.
 
-Demonstra competências em:
-- Data Analytics  
-- Business Intelligence  
-- Modelagem de KPIs  
-- Integração SQL + NoSQL  
-- Pensamento orientado a produto e negócio  
+No conjunto, elas criam um ciclo claro de crescimento:
 
-Projeto ideal para portfólio em vagas de:
-- Data Analyst  
-- Analytics Engineer  
-- BI Analyst  
-- Data Product Analyst  
+> Menos desperdício de receita → Mais conversão → Mais eficiência → Mais recompra → Maior faturamento  
