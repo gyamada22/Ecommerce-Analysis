@@ -58,20 +58,18 @@ A demora no processamento inicial permite que o cliente desista da compra antes 
 
 ---
 
-## 💳 3. Meios de Pagamento – Recuperação de Faturamento  
+### 💳 3. Meios de Pagamento – Otimização de Conversão (Boleto)
 
-- **Dado do dashboard:** ~21% do faturamento está em pedidos cancelados (≈ R$ 3,3 Mi).  
-- **Insight do banco:** Grande parte vem de boletos não pagos.  
-  No MongoDB, boletos podem levar até 3 dias para confirmação.
+* **Dado do Dashboard:** Dentro da margem de pedidos não finalizados (que representam ~3% do volume total), identificamos que 21,09% dos cancelamentos estão atrelados a pagamentos pendentes.
+* **Insight:** A investigação na camada de dados mostra que o Boleto Bancário é o principal detentor desse status. Como o MongoDB Atlas registra uma janela de até 3 dias para a confirmação, o cliente acaba perdendo o prazo de pagamento.
 
-### 📌 Problema  
-Pedidos expiram porque o cliente esquece de pagar o boleto.
+**📌 Problema**
+"Cancelamento por Esquecimento": Embora represente uma fatia pequena do faturamento global (R$ 15,7 Mi), esses pedidos indicam uma ineficiência no fechamento da venda que poderia ser convertida com baixo custo operacional.
 
-### 🛠️ Ação Estratégica  
-Criar automação (ex: Apache Airflow):
-- Enviar lembrete 24h antes do vencimento do boleto  
-- Recuperar parte do faturamento perdido  
-- Reduzir cancelamentos passivos  
+**🛠️ Ação Estratégica: Automação de Recuperação via Airflow**
+* **Orquestração de Alertas:** Implementar uma rotina no **Apache Airflow** para monitorar boletos próximos ao vencimento e disparar lembretes automáticos.
+* **Refinamento do Funil:** O foco é garantir que os 97% de sucesso logístico atuais sejam protegidos por uma etapa de pagamento mais assistida.
+* **Objetivo:** Reduzir a taxa de "pedidos expirados" e maximizar a conversão de boletos gerados em faturamento real.
 
 ---
 
