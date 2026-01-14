@@ -1,6 +1,6 @@
 #  Olist E-commerce - Projeto de Análise de Dados
 
-##  Objetivo do Projeto  
+##  Resumo do Projeto
 Este projeto tem como objetivo transformar dados operacionais do e-commerce da Olist em **insights estratégicos de negócio**, utilizando um dashboard interativo para identificar gargalos de receita, problemas logísticos, oportunidades de fidelização e melhorias no processo de pagamento.
 
 ---
@@ -30,7 +30,7 @@ Fluxo do projeto:
 
 ---
 
-##  Objetivo do Projeto  
+##  Objetivos do Projeto 
 
 O objetivo duplo do projeto foi:
 
