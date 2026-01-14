@@ -101,7 +101,7 @@ A demora no processamento inicial permite que o cliente desista da compra antes 
 
 ---
 
-##  3. Meios de Pagamento – Otimização de Conversão (Boleto)
+##  3. Meios de Pagamento
 
 * **Dado do Dashboard:** Dentro da margem de pedidos não finalizados (que representam ~3% do volume total), identificamos que 21,09% dos cancelamentos ocorrem em pagamentos pendentes.
 * **Insight:** Identifiquei que o boleto bancário é o principal responsável por esses cancelamentos, devido ao tempo de espera entre a geração do título e o pagamento real pelo cliente.
