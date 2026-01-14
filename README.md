@@ -13,8 +13,8 @@ Principais KPIs:
 
 - **Total de Pedidos:** 99 mil  
 - **Faturamento Total:** R$ 15,74 Mi  
-- **Ticket Médio:** R$ 158,33  
 - **Taxa de Recompra:** 3,12%  
+- **Ticket Médio:** R$ 158,33  
 
 Visualizações:
 - Faturamento por Estado  
