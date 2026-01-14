@@ -52,7 +52,7 @@ Implementar um **Score de Confiança para Vendedores**:
 A demora no processamento inicial permite que o cliente desista da compra antes mesmo do produto sair do centro de distribuição, gerando perda de receita em áreas de alta eficiência.
 
 **🛠️ Ação Estratégica: Implementação do "Fast-Track Sudeste"**
-* **Priorização Logística:** Automatizar o fluxo de pedidos para SP, RJ e MG cujos pagamentos sejam aprovados instantaneamente (Cartão de Crédito).
+* **Priorização Logística:** Automatizar o fluxo de pedidos para SP, RJ e MG cujos pagamentos sejam aprovados instantaneamente.
 * **Agilidade no Picking:** Antecipar a separação no estoque assim que o sinal de aprovação é recebido, reduzindo o tempo de "status parado".
 * **Impacto Esperado:** Redução drástica na taxa de cancelamento por impulso e otimização da malha logística mais rentável da plataforma.
 
