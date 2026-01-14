@@ -23,7 +23,7 @@ Visualizações:
 
 ---
 
-![Dashboard de Performance Global](https://raw.githubusercontent.com/gyamada22/Ecommerce-Analysis/main/images/Dash.png)
+![Dashboard de Performance Global](https://raw.githubusercontent.com/gyamada22/Ecommerce-Analysis/main/images/Dashboard.png)
 
 ---
 
