@@ -3,8 +3,6 @@
 ## 🎯 Objetivo do Projeto  
 Este projeto tem como objetivo transformar dados operacionais do e-commerce da Olist em **insights estratégicos de negócio**, utilizando um dashboard interativo para identificar gargalos de receita, problemas logísticos, oportunidades de fidelização e melhorias no processo de pagamento.
 
-O foco não é apenas visualização, mas **tomada de decisão orientada por dados**.
-
 ---
 ## 🧭 Descrição Detalhada do Projeto  
 
@@ -49,8 +47,6 @@ O objetivo duplo do projeto foi:
      - Identificar perdas de receita
      - Diagnosticar gargalos operacionais
      - Propor soluções estratégicas baseadas em dados  
-
-Este projeto prova que é totalmente possível construir análises complexas e produtos analíticos robustos usando **NoSQL como camada principal de dados**, sem depender de SQL tradicional.
 
 ---
 
