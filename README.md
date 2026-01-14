@@ -1,10 +1,10 @@
-# 📊 Olist E-commerce - Projeto de Análise de Dados
+#  Olist E-commerce - Projeto de Análise de Dados
 
-## 🎯 Objetivo do Projeto  
+##  Objetivo do Projeto  
 Este projeto tem como objetivo transformar dados operacionais do e-commerce da Olist em **insights estratégicos de negócio**, utilizando um dashboard interativo para identificar gargalos de receita, problemas logísticos, oportunidades de fidelização e melhorias no processo de pagamento.
 
 ---
-## 🧭 Descrição Detalhada do Projeto  
+##  Descrição Detalhada do Projeto  
 
 Este projeto foi desenvolvido com foco principal no estudo e na aplicação prática de **dados não estruturados utilizando NoSQL (MongoDB)**.  
 O objetivo central não era apenas construir um dashboard, mas sim **aprender a modelar, consultar e gerar valor de negócio a partir de dados não relacionais**, simulando um ambiente real onde os dados não seguem o padrão tradicional de tabelas SQL.
@@ -30,7 +30,7 @@ Fluxo do projeto:
 
 ---
 
-## 🎯 Objetivo do Projeto  
+##  Objetivo do Projeto  
 
 O objetivo duplo do projeto foi:
 
@@ -50,7 +50,7 @@ O objetivo duplo do projeto foi:
 
 ---
 
-## 🧩 Visão Geral do Dashboard  
+##  Visão Geral do Dashboard  
 
 Principais KPIs:
 
@@ -70,7 +70,7 @@ Visualizações:
 
 ---
 
-## 🚨 1. Gargalo de Receita – Indisponibilidade de Produtos  
+##  1. Gargalo de Receita – Indisponibilidade de Produtos  
 
 - **Dado do dashboard:** 20,55% dos pedidos estão com status *Indisponível*.  
 - **Insight:** Pedidos são criados, mas não processados por falta de estoque real.
@@ -86,44 +86,44 @@ Implementar um **Score de Confiança para Vendedores**:
 
 ---
 
-## 🚚 2. Eficiência Logística e Retenção – Hub Sudeste (SP, RJ, MG)
+##  2. Eficiência Logística e Retenção – Hub Sudeste (SP, RJ, MG)
 
 * **Dado do Dashboard:** O Sudeste (liderado por SP, RJ e MG) concentra o maior volume de faturamento e densidade de pedidos.
 * **Insight:** A análise revela que, apesar da infraestrutura logística ser mais rápida nessas regiões, a "janela de espera" entre a compra e a confirmação do pagamento é o principal gatilho para cancelamentos por arrependimento.
 
-**📌 Problema**
+### 📌 Problema**
 A demora no processamento inicial permite que o cliente desista da compra antes mesmo do produto sair do centro de distribuição, gerando perda de receita em áreas de alta eficiência.
 
-**🛠️ Ação Estratégica: Implementação do "Fast-Track Sudeste"**
+### 🛠️ Ação Estratégica: Implementação do "Fast-Track Sudeste"**
 * **Priorização Logística:** Automatizar o fluxo de pedidos para SP, RJ e MG cujos pagamentos sejam aprovados instantaneamente.
 * **Agilidade no Picking:** Antecipar a separação no estoque assim que o sinal de aprovação é recebido, reduzindo o tempo de "status parado".
 * **Impacto Esperado:** Redução drástica na taxa de cancelamento por impulso e otimização da malha logística mais rentável da plataforma.
 
 ---
 
-## 💳 3. Meios de Pagamento – Otimização de Conversão (Boleto)
+##  3. Meios de Pagamento – Otimização de Conversão (Boleto)
 
 * **Dado do Dashboard:** Dentro da margem de pedidos não finalizados (que representam ~3% do volume total), identificamos que 21,09% dos cancelamentos ocorrem em pagamentos pendentes.
 * **Insight:** Identifiquei que o boleto bancário é o principal responsável por esses cancelamentos, devido ao tempo de espera entre a geração do título e o pagamento real pelo cliente.
 
-**📌 Problema**
+### 📌 Problema**
 "Cancelamento por Esquecimento": O cliente gera o pedido, mas acaba perdendo o prazo de vencimento do boleto, resultando em uma perda de conversão que já estava garantida no carrinho.
 
-**🛠️ Ação Estratégica: Automação de Recuperação**
+### 🛠️ Ação Estratégica: Automação de Recuperação**
 * **Fluxo de Alertas:** Implementar uma rotina de monitoramento de prazos para disparar lembretes automáticos antes do vencimento do boleto.
 * **Objetivo:** Transformar pedidos pendentes em faturamento real e reduzir a taxa de desistência passiva no final do funil de vendas.
 
 ---
 
-## 🔁 4. Retenção e Fidelização – Ciclo de Recompra
+##  4. Retenção e Fidelização – Ciclo de Recompra
 
 * **Dado do dashboard:** Taxa de recompra de apenas 3,12%.
 * **Insight:** Identificamos que a grande maioria dos clientes não retorna para uma segunda compra, mesmo em categorias de consumo recorrente.
 
-📌 **Problema**
+### 📌 **Problema**
 A plataforma funciona majoritariamente como uma experiência de “compra única”, resultando em um baixo valor de tempo de vida (LTV) do cliente.
 
-🛠️ **Ação Estratégica**
+### 🛠️ **Ação Estratégica**
 Criar campanhas de relacionamento baseadas na primeira compra:
 * Segmentar clientes por categoria de interesse (ex: Beleza & Saúde).
 * Implementar o envio automático de incentivos de retorno após 30 dias.
@@ -131,7 +131,7 @@ Criar campanhas de relacionamento baseadas na primeira compra:
 
 ---
 
-## 🧠 Conclusão  
+##  Conclusão  
 
 Os insights deste projeto se conectam em um único objetivo: **aumentar o faturamento real do e-commerce reduzindo perdas e melhorando a eficiência do negócio**.
 
