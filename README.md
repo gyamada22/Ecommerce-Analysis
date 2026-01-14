@@ -23,6 +23,10 @@ Visualizações:
 
 ---
 
+![Dashboard de Performance Global](https://raw.githubusercontent.com/gyamada22/Ecommerce-Analysis/main/images/Dash1.png)
+
+---
+
 ## 🚨 1. Gargalo de Receita – Indisponibilidade de Produtos  
 
 - **Dado do dashboard:** 20,55% dos pedidos estão com status *Indisponível*.  
