@@ -115,7 +115,7 @@ A demora no processamento inicial permite que o cliente desista da compra antes 
 
 ---
 
-##  4. Retenção e Fidelização – Ciclo de Recompra
+##  4. Retenção e Fidelização 
 
 * **Dado do dashboard:** Taxa de recompra de apenas 3,12%.
 * **Insight:** Identificamos que a grande maioria dos clientes não retorna para uma segunda compra, mesmo em categorias de consumo recorrente.
