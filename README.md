@@ -30,7 +30,7 @@ Visualizações:
 ## 🚨 1. Gargalo de Receita – Indisponibilidade de Produtos  
 
 - **Dado do dashboard:** 20,55% dos pedidos estão com status *Indisponível*.  
-- **Insight do banco:** Pedidos são criados, mas não processados por falta de estoque real.
+- **Insight:** Pedidos são criados, mas não processados por falta de estoque real.
 
 ### 📌 Problema  
 Falha crítica na sincronização entre o estoque dos vendedores e a plataforma, gerando perda direta de receita e frustração do cliente.
