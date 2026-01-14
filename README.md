@@ -43,22 +43,18 @@ Implementar um **Score de Confiança para Vendedores**:
 
 ---
 
-## 🚚 2. Logística e Cancelamentos – Otimização em São Paulo  
+### 🚚 2. Eficiência Logística e Retenção – Hub Sudeste (SP, RJ, MG)
 
-- **Dado do dashboard:** SP concentra a maior parte do faturamento e pedidos.  
-- **Insight do banco:** Mesmo com logística mais rápida, ainda há cancelamentos relevantes.  
-  Análise feita cruzando:
-  - `vw_status_entrega`
-  - Tempo de aprovação de pagamento
+* **Dado do Dashboard:** O Sudeste (liderado por SP, RJ e MG) concentra o maior volume de faturamento e densidade de pedidos.
+* **Insight:** A análise revela que, apesar da infraestrutura logística ser mais rápida nessas regiões, a "janela de espera" entre a compra e a confirmação do pagamento é o principal gatilho para cancelamentos por arrependimento.
 
-### 📌 Problema  
-Janela de tempo entre compra e confirmação do pagamento permite arrependimentos e cancelamentos.
+**📌 Problema**
+A demora no processamento inicial permite que o cliente desista da compra antes mesmo do produto sair do centro de distribuição, gerando perda de receita em áreas de alta eficiência.
 
-### 🛠️ Ação Estratégica  
-Criar **Entrega Prioritária para SP** em pedidos pagos via Cartão de Crédito:
-- Pagamento aprovado instantaneamente  
-- Pedido entra mais rápido no fluxo logístico  
-- Redução da taxa de cancelamento  
+**🛠️ Ação Estratégica: Implementação do "Fast-Track Sudeste"**
+* **Priorização Logística:** Automatizar o fluxo de pedidos para SP, RJ e MG cujos pagamentos sejam aprovados instantaneamente (Cartão de Crédito).
+* **Agilidade no Picking:** Antecipar a separação no estoque assim que o sinal de aprovação é recebido, reduzindo o tempo de "status parado".
+* **Impacto Esperado:** Redução drástica na taxa de cancelamento por impulso e otimização da malha logística mais rentável da plataforma.
 
 ---
 
