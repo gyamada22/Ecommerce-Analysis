@@ -60,16 +60,15 @@ A demora no processamento inicial permite que o cliente desista da compra antes 
 
 ### 💳 3. Meios de Pagamento – Otimização de Conversão (Boleto)
 
-* **Dado do Dashboard:** Dentro da margem de pedidos não finalizados (que representam ~3% do volume total), identificamos que 21,09% dos cancelamentos estão atrelados a pagamentos pendentes.
-* **Insight:** A investigação na camada de dados mostra que o Boleto Bancário é o principal detentor desse status. Como o MongoDB Atlas registra uma janela de até 3 dias para a confirmação, o cliente acaba perdendo o prazo de pagamento.
+* **Dado do Dashboard:** Dentro da margem de pedidos não finalizados (que representam ~3% do volume total), identificamos que 21,09% dos cancelamentos ocorrem em pagamentos pendentes.
+* **Insight:** Identifiquei que o boleto bancário é o principal responsável por esses cancelamentos, devido ao tempo de espera entre a geração do título e o pagamento real pelo cliente.
 
 **📌 Problema**
-"Cancelamento por Esquecimento": Embora represente uma fatia pequena do faturamento global (R$ 15,7 Mi), esses pedidos indicam uma ineficiência no fechamento da venda que poderia ser convertida com baixo custo operacional.
+"Cancelamento por Esquecimento": O cliente gera o pedido, mas acaba perdendo o prazo de vencimento do boleto, resultando em uma perda de conversão que já estava garantida no carrinho.
 
-**🛠️ Ação Estratégica: Automação de Recuperação via Airflow**
-* **Orquestração de Alertas:** Implementar uma rotina no **Apache Airflow** para monitorar boletos próximos ao vencimento e disparar lembretes automáticos.
-* **Refinamento do Funil:** O foco é garantir que os 97% de sucesso logístico atuais sejam protegidos por uma etapa de pagamento mais assistida.
-* **Objetivo:** Reduzir a taxa de "pedidos expirados" e maximizar a conversão de boletos gerados em faturamento real.
+**🛠️ Ação Estratégica: Automação de Recuperação**
+* **Orquestração de Alertas:** Utilizar o **Apache Airflow** para monitorar prazos e disparar lembretes automáticos antes do vencimento do boleto.
+* **Objetivo:** Transformar pedidos pendentes em faturamento real e reduzir a taxa de desistência passiva no final do funil de vendas.
 
 ---
 
