@@ -1,9 +1,56 @@
-# 📊 Projeto de Análise de Dados – Olist E-commerce (Dashboard Estratégico)
+# 📊 Olist E-commerce - Projeto de Análise de Dados
 
 ## 🎯 Objetivo do Projeto  
 Este projeto tem como objetivo transformar dados operacionais do e-commerce da Olist em **insights estratégicos de negócio**, utilizando um dashboard interativo para identificar gargalos de receita, problemas logísticos, oportunidades de fidelização e melhorias no processo de pagamento.
 
 O foco não é apenas visualização, mas **tomada de decisão orientada por dados**.
+
+---
+## 🧭 Descrição Detalhada do Projeto  
+
+Este projeto foi desenvolvido com foco principal no estudo e na aplicação prática de **dados não estruturados utilizando NoSQL (MongoDB)**.  
+O objetivo central não era apenas construir um dashboard, mas sim **aprender a modelar, consultar e gerar valor de negócio a partir de dados não relacionais**, simulando um ambiente real onde os dados não seguem o padrão tradicional de tabelas SQL.
+
+Diferente de projetos clássicos de BI baseados em bancos relacionais, aqui toda a base analítica nasce de documentos JSON armazenados no MongoDB Atlas (Cloud).  
+Isso exigiu trabalhar conceitos fundamentais de NoSQL como:
+
+- Modelagem orientada a documentos  
+- Estrutura flexível de dados  
+- Embedded documents e arrays  
+- Aggregation Pipeline  
+- Criação de *views* analíticas diretamente no banco  
+- Pensamento de dados voltado para consultas, não para tabelas
+
+Fluxo do projeto:
+
+> 📄 Dados brutos (CSV/JSON)  
+> ➜ 🐍 Python (transformação em documentos JSON e carga no banco)  
+> ➜ 🗄️ MongoDB Atlas (NoSQL)  
+> ➜ 🔍 Aggregation Pipelines / Views  
+> ➜ 📊 Power BI  
+> ➜ 💡 Insights de Negócio  
+
+---
+
+## 🎯 Objetivo do Projeto  
+
+O objetivo duplo do projeto foi:
+
+1. **Técnico**
+   - Aprender MongoDB na prática
+   - Trabalhar com dados não estruturados
+   - Criar pipelines de agregação reais
+   - Modelar documentos pensando em consultas analíticas
+   - Simular um Data Warehouse NoSQL
+
+2. **De Negócio**
+   - Criar um dashboard executivo capaz de:
+     - Monitorar faturamento e pedidos
+     - Identificar perdas de receita
+     - Diagnosticar gargalos operacionais
+     - Propor soluções estratégicas baseadas em dados  
+
+Este projeto prova que é totalmente possível construir análises complexas e produtos analíticos robustos usando **NoSQL como camada principal de dados**, sem depender de SQL tradicional.
 
 ---
 
